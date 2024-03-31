@@ -1,0 +1,63 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# .gitignore from src/main/schoolroom (nested)
+
+# dependencies
+/src/main/schoolroom/node_modules
+/src/main/schoolroom/.pnp
+/src/main/schoolroom/.pnp.js
+
+# Node.js dependencies
+src/main/schoolroom/node/node_modules
+
+# Compiled output
+src/main/schoolroom/node/build
+
+# testing
+/src/main/schoolroom/coverage
+
+# production
+/src/main/schoolroom/build
+
+# misc
+/src/main/schoolroom/.DS_Store
+/src/main/schoolroom/.env.local
+/src/main/schoolroom/.env.development.local
+/src/main/schoolroom/.env.test.local
+/src/main/schoolroom/.env.production.local
+
+/src/main/schoolroom/npm-debug.log*
+/src/main/schoolroom/yarn-debug.log*
+/src/main/schoolroom/yarn-error.log*
